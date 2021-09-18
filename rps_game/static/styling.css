@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(204, 207, 204);
+    max-width: 80%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 70px;
+    font-family: 'Caveat', cursive;
+}
+
+div {
+    font-size: 50px;
+    vertical-align: middle;
+    line-height: 2;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: flex-end;
+  }
+
+  span:hover { 
+    transform: scale(1) translatey(-20px);
+    text-shadow: 0 20px 20px rgba(0,0,0,.3);
+
+  }
+
+  #select {
+    text-align: center;
+    background-color: rgb(204, 207, 204);
+    border: rgb(248, 204, 5) solid 4px;
+    color: black;
+    padding: 16px 32px;
+    font-weight: bolder;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  #submit {
+    text-align: center;
+    background-color: rgb(204, 207, 204);
+    border: rgb(248, 204, 5) solid 4px;
+    color: black;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+  }
+
+form {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.smiley {
+  font-size: 50px;
+  text-align: center;
+}
